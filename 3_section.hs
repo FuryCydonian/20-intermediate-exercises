@@ -15,7 +15,7 @@ furry' f a = banana f' a
 -- Exercise 12
 -- Relative Difficulty: 3
 jellybean :: (Misty m) => m (m a) -> m a
-jellybean = error "todo"
+jellybean ma = banana id ma
 
 -- Exercise 13
 -- Relative Difficulty: 6
